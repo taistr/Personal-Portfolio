@@ -158,6 +158,11 @@ h2 {
     justify-content: center;
 
     padding-bottom: 2rem;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
 }
 
 //animation
@@ -308,5 +313,80 @@ h2 {
     .col-9 {width: 75%;}
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}    
+    .col-12 {width: 100%;}  
+
+    .main-content {
+        margin: 0 20%;
+    }
+
+    .portrait {
+        width: 12rem;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .greeting-container {
+            padding: 0;
+        }
+
+        .intro-text {
+            transform: translateY(-5rem);
+        }
+
+        .portrait-container {
+            transform: translateY(-5rem);
+        }
+
+        #pro-portrait {
+            width: 20rem;
+        }
+    }
+
+    .about {
+        margin: 4rem 0rem;
+        
+        .about-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .portrait-container {
+            margin: 0;
+        }
+
+    }
+
+    .toolset {
+        margin: 4rem 0rem;
+
+       .skill-container {
+        justify-content: flex-start;
+        } 
+    }
+    
+    .footer {
+        
+        svg {
+            margin: 1rem;
+            
+        }
+
+        .footer-container {
+            margin: 0rem 20%;
+        }
+        
+        .socials {
+            justify-content: flex-start;
+
+            .bi-instagram {
+                margin-left: 0;
+            }
+        }
+    }
 }
