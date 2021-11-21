@@ -162,7 +162,8 @@ h2 {
 
 //animation
 .down-arrow {
-    animation: float 2s ease-in-out infinite;
+    fill: $primary-colour;
+    animation: float 1.5s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -170,7 +171,7 @@ h2 {
 		transform: translateY(0px);
 	}
 	50% {
-		transform: translateY(-0.5rem);
+		transform: translateY(-0.75rem);
 	}
 	100% {
 		transform: translateY(0px);
@@ -286,6 +287,12 @@ h2 {
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    #pro-portrait {
+        width: 24rem;
+    }
 }
 
 @media screen and (min-width: 769px) {

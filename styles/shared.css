@@ -177,8 +177,9 @@ h2 {
 }
 
 .down-arrow {
-  -webkit-animation: float 2s ease-in-out infinite;
-          animation: float 2s ease-in-out infinite;
+  fill: #1D84B5;
+  -webkit-animation: float 1.5s ease-in-out infinite;
+          animation: float 1.5s ease-in-out infinite;
 }
 
 @-webkit-keyframes float {
@@ -187,8 +188,8 @@ h2 {
             transform: translateY(0px);
   }
   50% {
-    -webkit-transform: translateY(-0.5rem);
-            transform: translateY(-0.5rem);
+    -webkit-transform: translateY(-0.75rem);
+            transform: translateY(-0.75rem);
   }
   100% {
     -webkit-transform: translateY(0px);
@@ -202,8 +203,8 @@ h2 {
             transform: translateY(0px);
   }
   50% {
-    -webkit-transform: translateY(-0.5rem);
-            transform: translateY(-0.5rem);
+    -webkit-transform: translateY(-0.75rem);
+            transform: translateY(-0.75rem);
   }
   100% {
     -webkit-transform: translateY(0px);
@@ -356,6 +357,12 @@ h2 {
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  #pro-portrait {
+    width: 24rem;
+  }
 }
 
 @media screen and (min-width: 769px) {
