@@ -27,7 +27,7 @@
 
                     <div class="intro-text col-7">
                         <div class="greeting-container">
-                            <h1 class="greeting-text">Hey There!<br>I'm Tyson. 👋</h1>
+                            <h1 class="greeting-text">Hey There!<br>I'm Tyson.<br><span class="emoji" id="fun_emoji" onclick="cycleEmoji()">👋</span><span id="fun_hint"> ← Click Me!</span></h1>
                         </div>
 
                         <div class="description-container">
@@ -55,7 +55,7 @@
 
                 <div class="about">
                     <div class="section-heading col-12">
-                        <h2 class="about-heading">About Me 🐬</h2>
+                        <h2 class="about-heading" id="about_section">About Me <span class="emoji">🐬</span></h2>
                     </div>
 
                     <div class="about-content">
@@ -65,7 +65,7 @@
                                 and am an electrical subteam member at <a href="https://monashhumanpower.org/" target="_blank" rel="noreferrer noopener" class="paragraph-link">Monash Human Power</a> who works on the hardware branch of the team.
                                 <br><br>
                                 Ouside of my studies I enjoy spending time <b>volunteering</b>, <b>tutoring</b>, <b>working on personal projects</b> or 
-                                <b>cooking</b> 🍜. I've also been trying to get back into reading so feel free to reach out with any recommendations!
+                                <b>cooking</b> <span class="emoji">🍜</span>. I've also been trying to get back into reading so feel free to reach out with any recommendations!
                             </p>
                         </div>
 
@@ -77,7 +77,7 @@
                 </div>
 
                 <div class="toolset">
-                    <h2>Toolset 🔨</h2>
+                    <h2>Toolset <span class="emoji">🔨</span></h2>
                     
                     <div class="skill-container">
                         <div class="skill">
@@ -116,8 +116,8 @@
 
             <div class="footer">
                 <div class="footer-container">
-                    <div class="socials-container">
-                        <h2>Let's Connect 📫</h2>
+                    <div class="socials-container" id="contact_section">
+                        <h2>Let's Connect <span class="emoji">📫</span></h2>
 
                         <div class="socials-content">
                             <p class="col-7">
@@ -166,10 +166,10 @@
             </div>
             <div class="menu-list-container">
                 <ul>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">📃Resume</a></li>
+                    <!-- <li><a href="#">Projects</a></li> -->
+                    <li><a href="#about_section" onclick="toggleMenu()">About Me</a></li>
+                    <li><a href="#contact_section" onclick="toggleMenu()">Contact</a></li>
+                    <li><a href="#"><span class="emoji">📃</span>Resume</a></li>
                 </ul> 
             </div>
 

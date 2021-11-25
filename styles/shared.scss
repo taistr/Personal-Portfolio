@@ -10,6 +10,7 @@ $header-margin: 1rem;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -73,6 +74,10 @@ h2 {
     text-decoration: underline;
 }
 
+.emoji {
+    font-weight: normal;
+}
+
 /*Menu*/
 .menu {
     display: none;
@@ -129,8 +134,6 @@ h2 {
     fill: white;
 }
 
-
-
 /* Intro */
 .intro {
     height: 100vh;
@@ -163,6 +166,21 @@ h2 {
     bottom: 0;
     left: 0;
 
+}
+
+#fun_emoji {
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#fun_emoji:hover {
+    font-size: 7rem;
+}
+
+#fun_hint {
+    color:$accent-colour;
+    font-weight: normal;
+    font-size: 1rem;
 }
 
 //animation
