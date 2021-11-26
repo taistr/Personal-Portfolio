@@ -162,9 +162,9 @@ h2 {
     display: flex;
     justify-content: center;
 
-    // padding-bottom: 2rem;
+    padding-bottom: 2rem;
 
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
 
@@ -409,5 +409,17 @@ h2 {
                 margin-left: 0;
             }
         }
+    }
+
+    .down-arrow-container {
+        display: flex;
+        justify-content: center;
+    
+        padding-bottom: 2rem;
+    
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    
     }
 }
