@@ -23,7 +23,9 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    .link-text {
+        text-decoration: underline;
+    }
 }
 
 li {
