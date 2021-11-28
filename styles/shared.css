@@ -179,7 +179,7 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 2rem;
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
 }
@@ -505,6 +505,18 @@ h2 {
   }
   .footer .socials .bi-instagram {
     margin-left: 0;
+  }
+  .down-arrow-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 }
 /*# sourceMappingURL=shared.css.map */
